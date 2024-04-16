@@ -9,6 +9,12 @@
       display: table;
       padding: 10px;
     }
+
+    .disable {
+      background-color: light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+      color: light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+      border-color: light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+    }
   </style>
 </head>
 <body>
@@ -21,7 +27,7 @@
   <button id='minus' > ➖ </button>
   <button id='plus' > ➕ </button>
   <button id='heart' > ❤️ </button>
-  <button id='pause' > pause </button>
+  <button id='pause' >pause</button>
 
   <ul class='likes'></ul>
 
@@ -32,14 +38,14 @@
     <h3>Leave a comment</h3>
 
     <form id="comment-form" action="">
-      <input type='text' name="comment" id="comment-input" cols="30" rows="10">
+      <input type='text' name="comment" id="comment_input" cols="30" rows="10">
       </br>
       <button id='submit'>submit</button>
     </form>
 
   </div>
 
-  <script src="js/index.min.js"></script>
+  <!-- <script src="js/index.min.js"></script> -->
   <script src="js/challenge.js"></script>
 </body>
 </html>
